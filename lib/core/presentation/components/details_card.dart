@@ -94,7 +94,7 @@ class DetailsCard extends StatelessWidget {
                           ),
                           child: const Icon(
                             Icons.play_arrow_rounded,
-                            color: AppColors.secondaryText,
+                            color: AppColors.secondaryBackground,
                           ),
                         ),
                       ),
