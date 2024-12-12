@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:movies_app/core/resources/app_colors.dart';
+import 'package:movies_app/core/resources/app_strings.dart';
 
 ThemeData getApplicationTheme() {
   return ThemeData(
@@ -61,7 +61,8 @@ TextStyle _getTextStyle({
   FontWeight fontWeight = FontWeight.w600,
   required Color color,
 }) {
-  return GoogleFonts.poppins(
+  return TextStyle(
+    fontFamily: AppStrings.fontFamily,
     fontSize: fontSize,
     fontWeight: fontWeight,
     color: color,

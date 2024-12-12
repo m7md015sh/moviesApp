@@ -21,7 +21,7 @@ class EpisodeCard extends StatelessWidget {
       child: Row(
         children: [
           Padding(
-            padding: const EdgeInsets.only(right: AppPadding.p8),
+            padding: const EdgeInsets.only(right: AppPadding.p12),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(AppSize.s8),
               child: ImageWithShimmer(
@@ -44,15 +44,15 @@ class EpisodeCard extends StatelessWidget {
                   episode.name,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: textTheme.bodyLarge,
+                  style: textTheme.bodyMedium,
                 ),
                 Text(
                   episode.airDate,
-                  style: textTheme.bodyLarge,
+                  style: textTheme.bodyMedium,
                 ),
                 Text(
                   episode.runtime,
-                  style: textTheme.bodyLarge,
+                  style: textTheme.bodyMedium,
                 ),
               ],
             ),

@@ -25,54 +25,54 @@ class ApiConstants {
 
   // movies paths
   static const String nowPlayingMoviesPath =
-      '$baseUrl/movie/now_playing?api_key=$apiKey';
+      '$baseUrl/movie/now_playing?api_key=$apiKey&language=ar';
 
   static const String popularMoviesPath =
-      '$baseUrl/movie/popular?api_key=$apiKey';
+      '$baseUrl/movie/popular?api_key=$apiKey&language=ar';
 
   static const String topRatedMoviesPath =
-      '$baseUrl/movie/top_rated?api_key=$apiKey';
+      '$baseUrl/movie/top_rated?api_key=$apiKey&language=ar';
 
   static String getMovieDetailsPath(int movieId) {
-    return '$baseUrl/movie/$movieId?api_key=$apiKey&append_to_response=videos,credits,reviews,similar';
+    return '$baseUrl/movie/$movieId?api_key=$apiKey&language=ar&append_to_response=videos,credits,reviews,similar';
   }
 
   static String getAllPopularMoviesPath(int page) {
-    return '$baseUrl/movie/popular?api_key=$apiKey&page=$page';
+    return '$baseUrl/movie/popular?api_key=$apiKey&page=$page&language=ar';
   }
 
   static String getAllTopRatedMoviesPath(int page) {
-    return '$baseUrl/movie/top_rated?api_key=$apiKey&page=$page';
+    return '$baseUrl/movie/top_rated?api_key=$apiKey&page=$page&language=ar';
   }
 
   // tv shows paths
   static const String onAirTvShowsPath =
-      '$baseUrl/tv/on_the_air?api_key=$apiKey&with_original_language=en';
+      '$baseUrl/tv/on_the_air?api_key=$apiKey&language=ar&with_original_language=en';
 
   static const String popularTvShowsPath =
-      '$baseUrl/tv/popular?api_key=$apiKey&with_original_language=en';
+      '$baseUrl/tv/popular?api_key=$apiKey&language=ar&with_original_language=en';
 
   static const String topRatedTvShowsPath =
-      '$baseUrl/tv/top_rated?api_key=$apiKey&with_original_language=en';
+      '$baseUrl/tv/top_rated?api_key=$apiKey&language=ar&with_original_language=en';
 
   static String getTvShowDetailsPath(int tvShowId) {
-    return '$baseUrl/tv/$tvShowId?api_key=$apiKey&append_to_response=similar,videos';
+    return '$baseUrl/tv/$tvShowId?api_key=$apiKey&language=ar&append_to_response=similar,videos';
   }
 
   static String getSeasonDetailsPath(SeasonDetailsParams params) {
-    return '$baseUrl/tv/${params.id}/season/${params.seasonNumber}?api_key=$apiKey';
+    return '$baseUrl/tv/${params.id}/season/${params.seasonNumber}?api_key=$apiKey&language=ar';
   }
 
   static String getAllPopularTvShowsPath(int page) {
-    return '$baseUrl/tv/popular?api_key=$apiKey&page=$page&with_original_language=en';
+    return '$baseUrl/tv/popular?api_key=$apiKey&page=$page&language=ar&with_original_language=en';
   }
 
   static String getAllTopRatedTvShowsPath(int page) {
-    return '$baseUrl/tv/top_rated?api_key=$apiKey&page=$page&with_original_language=en';
+    return '$baseUrl/tv/top_rated?api_key=$apiKey&page=$page&language=ar&with_original_language=en';
   }
 
   // search paths
   static String getSearchPath(String title) {
-    return '$baseUrl/search/multi?api_key=$apiKey&query=$title';
+    return '$baseUrl/search/multi?api_key=$apiKey&query=$title&language=ar';
   }
 }

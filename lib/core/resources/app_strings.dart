@@ -1,4 +1,6 @@
 class AppStrings {
+
+  static const String fontFamily = 'Cairo';
   static const String appTitle = 'Movies App';
   static const String seeAll = 'see all';
   static const String popularMovies = 'Popular movies';
@@ -13,7 +15,7 @@ class AppStrings {
   static const String movies = 'Movies';
   static const String shows = 'Shows';
   static const String search = 'Search';
-  static const String watchlist = 'Watchlist';
+  static const String watchlist = 'Saved';
   static const String popularShows = 'Popular shows';
   static const String topRatedShows = 'Top rated shows';
   static const String lastEpisodeOnAir = 'Last Episode on Air';
