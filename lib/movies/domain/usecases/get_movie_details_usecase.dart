@@ -5,7 +5,7 @@ import 'package:movies_app/core/domain/usecase/base_use_case.dart';
 import 'package:movies_app/movies/domain/repository/movies_repository.dart';
 
 class GetMoviesDetailsUseCase extends BaseUseCase<MediaDetails, int> {
-  final MoviesRepository _baseMoviesRespository;
+  final MoviesRepository  _baseMoviesRespository;
 
   GetMoviesDetailsUseCase(this._baseMoviesRespository);
 

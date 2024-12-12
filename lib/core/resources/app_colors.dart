@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const primary = Color(0xffef233c);
-  static const secondary = Color(0xff272b30);
-  static const primaryBackground = Color(0xff1a1d1f);
-  static const secondaryBackground = Color(0xff272b30);
-  static const primaryText = Color(0xffa9aaac);
-  static const secondaryText = Colors.white;
-  static const primaryBtnText = Colors.white;
-  static const error = Colors.red;
-  static const black = Colors.black;
-  static const inactiveColor = Color(0x26ffffff);
-  static const transparent = Colors.transparent;
-  static const ratingIconColor = Color(0xffffbe21);
-  static const circleDotColor = Color(0x33ffffff);
-  static const iconContainerColor = Color(0xB2272830);
+  static const primary = Color(0xffb00020); // Purple for primary color
+  static const secondary = Color(0xff6200ea); // Teal for secondary color
+  static const primaryBackground = Color(0xffffffff); // White for primary background
+  static const secondaryBackground = Color(0xffe8eaf6); // Light indigo for secondary background
+  static const primaryText = Color(0xff000000); // Black for primary text
+  static const secondaryText = Color(0xff4a4a4a); // Dark gray for secondary text
+  static const primaryBtnText = Color(0xffffffff); // White for button text
+  static const error = Color(0xff03dac6); // Dark red for errors
+  static const black = Color(0xff000000); // Standard black
+  static const inactiveColor = Color(0x40808080); // Semi-transparent gray
+  static const transparent = Colors.transparent; // Transparent color
+  static const ratingIconColor = Color(0xffffc400); // Amber for rating icons
+  static const circleDotColor = Color(0x406200ea); // Semi-transparent purple
+  static const iconContainerColor = Color(0x80e8eaf6); // Semi-transparent light indigo
 }
